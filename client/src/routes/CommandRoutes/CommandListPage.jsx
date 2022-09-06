@@ -1,7 +1,7 @@
 import React from "react";
 import CommandsList from "../../components/CommandComponents/CommandsList";
-import Sidebar from "../../components/Sidebar";
-import NavBar from "../../components/NavBar";
+import Sidebar from "../../components/Shared/Sidebar";
+import NavBar from "../../components/Shared/NavBar";
 
 function CommandListPage() {
   return (

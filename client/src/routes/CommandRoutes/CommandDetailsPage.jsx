@@ -1,6 +1,6 @@
 import React, { useEffect, useContext } from "react";
-import Sidebar from "../../components/Sidebar";
-import NavBar from "../../components/NavBar";
+import Sidebar from "../../components/Shared/Sidebar";
+import NavBar from "../../components/Shared/NavBar";
 import { CommandsContext } from "../../context/CommandsContext";
 import CommandsFinder from "../../apis/CommandsFinder";
 import { useParams } from "react-router-dom";

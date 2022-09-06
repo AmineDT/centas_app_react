@@ -1,9 +1,10 @@
-import React from 'react';
-import { scaleRotate as Menu } from 'react-burger-menu';
+import React from "react";
+import { scaleRotate as Menu } from "react-burger-menu";
 
-export default props => {
+function SideBar() 
+{
   return (
-    <Menu pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" }>
+    <Menu pageWrapId={"page-wrap"} outerContainerId={"outer-container"}>
       <a className="menu-item" href="/">
         Home
       </a>
@@ -30,3 +31,6 @@ export default props => {
     </Menu>
   );
 };
+
+
+export default SideBar;
